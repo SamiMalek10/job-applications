@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sami MALEK — CV Master 2 SISE Lyon 2</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      font-size: 10pt;
+      color: #1a1a1a;
+      background: #fff;
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      padding: 10mm 12mm;
+      line-height: 1.35;
+    }
+    a { color: #1a1a1a; text-decoration: none; }
+    .header { display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 2px solid #1a3c5e; padding-bottom: 6px; margin-bottom: 8px; }
+    .header h1 { font-size: 18pt; color: #1a3c5e; }
+    .header h2 { font-size: 10pt; font-weight: 500; color: #444; margin-top: 2px; }
+    .contact { text-align: right; font-size: 8.5pt; color: #444; line-height: 1.5; }
+    .section { margin-bottom: 8px; }
+    .section-title { font-size: 9pt; font-weight: 700; color: #1a3c5e; text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid #1a3c5e; padding-bottom: 2px; margin-bottom: 5px; }
+    .summary { font-size: 9pt; color: #222; }
+    .two-col { display: grid; grid-template-columns: 2.1fr 1fr; gap: 10px; }
+    .entry { margin-bottom: 6px; }
+    .entry-header { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+    .entry-title { font-weight: 700; color: #1a3c5e; font-size: 9pt; }
+    .entry-role { font-size: 8.5pt; color: #333; font-style: italic; }
+    .entry-date { font-size: 8pt; color: #666; white-space: nowrap; }
+    ul { padding-left: 14px; }
+    li { font-size: 8.5pt; margin-bottom: 2px; color: #222; }
+    .pill-wrap { display: flex; flex-wrap: wrap; gap: 3px; }
+    .pill { background: #eef3f8; border: 1px solid #c5d5e8; color: #1a3c5e; font-size: 7.5pt; padding: 1px 5px; border-radius: 3px; }
+    .edu { font-size: 8.5pt; color: #222; margin-bottom: 4px; }
+    .edu strong { color: #1a3c5e; }
+    .badge { background: #d4edda; color: #155724; font-size: 7.5pt; padding: 1px 5px; border-radius: 3px; font-weight: 600; margin-left: 4px; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div>
+      <h1>Sami MALEK</h1>
+      <h2>Statisticien appliqué, ML enthusiast, Data Scientist — Candidature M2 SISE (Lyon 2)</h2>
+    </div>
+    <div class="contact">
+      <div>Rabat, Maroc</div>
+      <div><a href="mailto:sami.malek15@gmail.com">sami.malek15@gmail.com</a></div>
+      <div>+212 651 829 145</div>
+      <div><a href="https://linkedin.com/in/malek-sami-089b44291">linkedin.com/in/malek-sami-089b44291</a></div>
+      <div><a href="https://github.com/SamiMalek10">github.com/SamiMalek10</a></div>
+    </div>
+  </header>
+
+  <section class="section">
+    <h3 class="section-title">Profil ciblé SISE</h3>
+    <p class="summary">Élève ingénieur en Data Science & IA (ENSAM Rabat, promo 2026), orienté méthodes statistiques, modélisation prédictive et ingénierie de données. Mes projets articulent rigueur statistique (régression, clustering, séries temporelles, validation de modèles) et implémentation informatique (Python, SQL, Spark, pipelines déployables). Je candidate au Master 2 Informatique — Statistique et Informatique pour la Science des Données afin d'approfondir les fondements statistiques et l'apprentissage automatique au service de la décision par la donnée.</p>
+  </section>
+
+  <div class="two-col">
+    <main>
+      <section class="section">
+        <h3 class="section-title">Projets data science et statistique</h3>
+
+        <div class="entry">
+          <div class="entry-header">
+            <div><span class="entry-title">Prédiction de valeur marchande (football)</span> <span class="entry-role">— ML supervisé & évaluation</span></div>
+            <span class="entry-date">2024</span>
+          </div>
+          <ul>
+            <li>Pipeline de modélisation sur données scrappées avec sélection de variables, comparaison de modèles et validation des performances.</li>
+            <li>Résultat : <span class="badge">RMSE 0,298</span> avec approche d'ensemble (gradient boosting + régression).</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <div><span class="entry-title">Classification de tumeurs cérébrales (IRM)</span> <span class="entry-role">— Deep Learning appliqué santé</span></div>
+            <span class="entry-date">2024</span>
+          </div>
+          <ul>
+            <li>Ensemble ResNet50/VGG16/VGG19 + CNN custom avec transfert d'apprentissage et augmentation de données.</li>
+            <li>Résultat : <span class="badge">98% précision</span> sur la classification des grades de méningiomes.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <div><span class="entry-title">Prévision de tendances météorologiques</span> <span class="entry-role">— Séries temporelles & EDA</span></div>
+            <span class="entry-date">2024</span>
+          </div>
+          <ul>
+            <li>Analyse exploratoire et prévision sur données historiques avec visualisations interactives Streamlit.</li>
+            <li>Travail centré sur le prétraitement, la robustesse des hypothèses et l'interprétation des résultats.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <div><span class="entry-title">Classification multimodale de documents bancaires</span> <span class="entry-role">— NLP + Vision</span></div>
+            <span class="entry-date">2024</span>
+          </div>
+          <ul>
+            <li>Architecture duale : pipeline NLP (OCR/texte) + Vision Transformer, fusion tardive des scores.</li>
+            <li>Mise en production d'un service FastAPI pour inférence et intégration opérationnelle.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3 class="section-title">Expérience professionnelle pertinente</h3>
+
+        <div class="entry">
+          <div class="entry-header">
+            <div><span class="entry-title">LAPROPHAN</span> <span class="entry-role">— Data Scientist, analytique client</span></div>
+            <span class="entry-date">2025</span>
+          </div>
+          <ul>
+            <li>Segmentation clients par K-Means sur données SAP et scoring Valeur/Potentiel.</li>
+            <li>Résultat business quantifié : <span class="badge">55M MAD d'opportunité</span>.</li>
+            <li>Modèles de régression prédictive pour la demande et tableaux Power BI temps réel.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <div><span class="entry-title">3D SMART FACTORY</span> <span class="entry-role">— Data Scientist, système RAG éducatif</span></div>
+            <span class="entry-date">2025</span>
+          </div>
+          <ul>
+            <li>Conception d'un pipeline de récupération hybride (FAISS + BM25 + embeddings) pour recommandations d'apprentissage.</li>
+            <li>Résultats : <span class="badge">+87% rétention</span> <span class="badge">-30% temps d'étude</span>.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <div><span class="entry-title">GETEAM</span> <span class="entry-role">— Ingénieur AI/ML (contexte production)</span></div>
+            <span class="entry-date">2026</span>
+          </div>
+          <ul>
+            <li>Déploiement de modèles via infrastructure LLM avec suivi de métriques, latence et coût.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <aside>
+      <section class="section">
+        <h3 class="section-title">Compétences statistiques & ML</h3>
+        <div class="pill-wrap">
+          <span class="pill">Statistiques descriptives & inférentielles</span>
+          <span class="pill">Régression</span>
+          <span class="pill">Clustering (K-Means)</span>
+          <span class="pill">Évaluation de modèles (RMSE, précision)</span>
+          <span class="pill">Séries temporelles</span>
+          <span class="pill">Machine Learning</span>
+          <span class="pill">Deep Learning</span>
+          <span class="pill">Python</span>
+          <span class="pill">SQL</span>
+          <span class="pill">Scikit-learn</span>
+          <span class="pill">PyTorch</span>
+          <span class="pill">TensorFlow/Keras</span>
+          <span class="pill">Pandas / NumPy</span>
+          <span class="pill">Spark (PySpark)</span>
+          <span class="pill">Power BI</span>
+          <span class="pill">MLflow</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3 class="section-title">Formation</h3>
+        <div class="edu"><strong>ENSAM Rabat</strong><br>Diplôme d'Ingénieur — Data Science & IA<br>2023–2026 (Promo 2026)</div>
+        <div class="edu">Cours ciblés : Statistiques & Analyse de Données, Machine Learning, Deep Learning, Python pour la Data Science, Big Data, MLOps.</div>
+        <div class="edu"><strong>ENSAM Rabat — CPGE intégrée</strong><br>Mathématiques & Sciences de l'Ingénieur<br>2021–2023</div>
+        <div class="edu"><strong>Lycée Annakhil, Kénitra</strong><br>Baccalauréat Mathématiques & Sciences de l'Ingénieur — 2021</div>
+      </section>
+
+      <section class="section">
+        <h3 class="section-title">Certifications</h3>
+        <div class="edu">Machine Learning Specialization — DeepLearning.AI (2024)</div>
+        <div class="edu">Introduction to Deep Learning with PyTorch — DataCamp (2024)</div>
+        <div class="edu">IBM Introduction to Computer Vision — Coursera (2024)</div>
+      </section>
+
+      <section class="section">
+        <h3 class="section-title">Langues</h3>
+        <div class="edu">Arabe (maternelle) · Français (courant) · Anglais (courant)</div>
+      </section>
+    </aside>
+  </div>
+</body>
+</html>
