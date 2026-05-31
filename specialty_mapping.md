@@ -43,6 +43,44 @@ For each specialty tag, this file lists the ranked experiences, projects, skills
 
 ---
 
+## `business_analytics`
+
+**Top experiences (ranked):**
+1. Laprophan — Business intelligence on SAP data, segmentation-led revenue discovery, Power BI dashboards for commercial teams
+2. ENSAM Rabat — Technical workshops bridging data pipelines and operational decision-making
+3. 3D Smart Factory — Product analytics with measurable educational outcomes
+
+**Top projects:**
+1. Football Market Value Prediction — interpretable modeling on business-style market data
+2. Weather Trend Forecasting — dashboarded trend analysis for decision support
+
+**Skills to highlight:** Power BI, Tableau, SAP data analysis, KPI framing, segmentation, forecasting, stakeholder-facing dashboards, SQL
+
+**Cover letter hooks:**
+- "Turned SAP transactional data into decision-ready segmentation that surfaced a 55M MAD revenue opportunity for the commercial organization"
+- "Combined analytical modeling and dashboard storytelling so non-technical stakeholders could act on the findings quickly"
+
+---
+
+## `cloud`
+
+**Top experiences (ranked):**
+1. GETEAM — production-grade LLM platform architecture with observability, reliability, and provider abstraction
+2. Private Cloud / JupyterHub project — multi-user environment with Docker Compose and persistent volumes
+3. ENSAM Rabat — practical training on Docker, Kafka, and distributed systems
+
+**Top projects:**
+1. MLOps: Experiment Tracking with MLflow — containerized environment for reproducible workflows
+2. AI-Powered Recruitment Platform — Dockerized FastAPI microservices with Redis and MongoDB
+
+**Skills to highlight:** Docker, Docker Compose, Linux/Shell, JupyterHub, observability, containerized deployments, distributed messaging, cloud-ready architecture
+
+**Cover letter hooks:**
+- "Built cloud-ready AI infrastructure with standardized model access, structured observability, and cost-aware routing for production workloads"
+- "Deployed a private multi-user JupyterHub environment in containers, enabling reproducible collaboration without sacrificing control over data and tooling"
+
+---
+
 ## `computer_vision`
 
 **Top projects (ranked):**
@@ -124,7 +162,7 @@ For each specialty tag, this file lists the ranked experiences, projects, skills
 3. Literacy Tracking Web App — Flask + SQLite + ML recommendation engine
 4. House Price Prediction — Gradio + Docker + Hugging Face Spaces
 
-**Skills to highlight:** FastAPI, Flask/Django, React.js/Angular, Streamlit, Spring Boot, Bootstrap, MongoDB, PostgreSQL/MySQL, Redis, Docker
+**Skills to highlight:** FastAPI, Flask/Django, React.js/Angular, Streamlit, Spring Boot, MongoDB, PostgreSQL/MySQL, Redis, Docker
 
 **Cover letter hooks:**
 - "Designed modular FastAPI microservices with MongoDB backend and Redis caching layer, containerized with Docker following MLOps deployment principles"
