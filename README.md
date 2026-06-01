@@ -6,8 +6,8 @@ Automated framework to generate tailored resumes and cover letters for Sami Male
 
 ```yaml
 type: stage | alternance | poste | formation
-langue: fr | en
-spécialités: [AI/LLM/RAG, data_science, computer_vision, mlops, backend_web, big_data]
+language: fr | en                          # alias: langue
+specialties: [ai_llm_rag, data_science, computer_vision, mlops, backend_web, big_data] # alias: spécialités
 cible: <job posting URL or pasted description>
 ton: formel | enthousiaste | sobre   # optional
 notes: <specific angle to emphasize> # optional

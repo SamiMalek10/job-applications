@@ -4,8 +4,8 @@
 
 ```yaml
 type: stage | alternance | poste | formation
-langue: fr | en
-spécialités: [list from specialty_mapping.json]
+language: fr | en                          # alias: langue
+specialties: [list from specialty_mapping.json] # alias: spécialités
 cible: <job posting URL or full text>
 ton: formel | enthousiaste | sobre        # optional, default: sobre
 notes: <specific constraints or emphasis> # optional
@@ -34,7 +34,7 @@ Use `templates/resume_tailoring_system.md` rules:
 - Dynamic summary aligned with role priorities
 - Reordered bullets (most relevant first)
 - Natural keyword incorporation for ATS
-- Clean formatting (no tables, no graphics, no columns required by ATS parser)
+- Clean formatting (no tables/graphics; single-column ATS-compatible layout)
 - Language adaptation (`fr`/`en`)
 - Length rule: 1 page for early-career, up to 2 pages for senior role targets
 
@@ -55,8 +55,8 @@ Use `templates/cover_letter_system.md` rules:
 
 ## Output Contract
 
-- Resume: `outputs/CV_{type}_{langue}_{target_slug}_Sami_Malek.(md|html|pdf)`
-- Cover letter: `outputs/lettre_{type}_{langue}_{target_slug}_Sami_Malek.(md|pdf)`
+- Resume: `outputs/CV_{type}_{language}_{target_slug}_Sami_Malek.(md|html|pdf)`
+- Cover letter: `outputs/lettre_{type}_{language}_{target_slug}_Sami_Malek.(md|pdf)`
 
 ## Source of Truth
 

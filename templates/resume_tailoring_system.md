@@ -4,9 +4,9 @@
 Generate an ATS-optimized resume tailored to a target posting while preserving factual accuracy.
 
 ## Inputs
-- `type`: stage | alternance | poste | formation
-- `langue`: fr | en
-- `spécialités`: one or more specialties from `specialty_mapping.json`
+- `type`: stage (internship) | alternance (apprenticeship) | poste (job position) | formation (training program)
+- `language` (`langue`): fr | en
+- `specialties` (`spécialités`): one or more specialties from `specialty_mapping.json`
 - `cible`: job posting URL or full description text
 - `ton`: optional
 - `notes`: optional

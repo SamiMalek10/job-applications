@@ -6,7 +6,7 @@
 ```yaml
 type: formation
 langue: fr
-spécialités: [data_science, big_data, mlops]
+specialties: [data_science, big_data, mlops]
 cible: "MASTER 2 INFORMATIQUE / BUSINESS INTELLIGENCE ET ANALYTICS (BI&A)"
 ton: formel
 notes: "insister sur la jonction IA + pilotage business"
@@ -23,7 +23,7 @@ notes: "insister sur la jonction IA + pilotage business"
 ```yaml
 type: poste
 langue: en
-spécialités: [AI/LLM/RAG, mlops, backend_web]
+specialties: [ai_llm_rag, mlops, backend_web]
 cible: "AI Engineer role requiring LLMOps, FastAPI, and production monitoring"
 ton: enthusiastic
 ```
@@ -39,7 +39,7 @@ ton: enthusiastic
 ```yaml
 type: stage
 langue: fr
-spécialités: [computer_vision, data_science]
+specialties: [computer_vision, data_science]
 cible: "Stage Computer Vision - détection/segmentation d'images médicales"
 ton: enthousiaste
 ```

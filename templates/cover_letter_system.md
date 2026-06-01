@@ -4,11 +4,11 @@
 Generate a tailored 3-4 paragraph cover letter aligned with the target posting and company context.
 
 ## Inputs
-- `type`: stage | alternance | poste | formation
-- `langue`: fr | en
-- `spécialités`: one or more specialties from `specialty_mapping.json`
+- `type`: stage (internship) | alternance (apprenticeship) | poste (job position) | formation (training program)
+- `language` (`langue`): fr | en
+- `specialties` (`spécialités`): one or more specialties from `specialty_mapping.json`
 - `cible`: target posting text or URL
-- `ton`: formel | enthousiaste | sobre (optional)
+- `ton`: formel (formal) | enthousiaste (enthusiastic) | sobre (professional) (optional)
 - `notes`: optional personalization constraints
 
 ## Generation Rules

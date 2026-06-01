@@ -1,7 +1,8 @@
 {
   "candidate": "Sami Malek",
   "specialties": {
-    "AI/LLM/RAG": {
+    "ai_llm_rag": {
+      "aliases": ["AI/LLM/RAG"],
       "experiences": [
         "GETEAM - LLM Gateway (provider abstraction, routing, observability, cost control)",
         "PM ACCELERATOR - GovernHQ (agent governance, dynamic rules, human-in-the-loop)",
