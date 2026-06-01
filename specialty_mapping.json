@@ -1,0 +1,106 @@
+{
+  "candidate": "Sami Malek",
+  "specialties": {
+    "ai_llm_rag": {
+      "aliases": ["AI/LLM/RAG"],
+      "experiences": [
+        "GETEAM - LLM Gateway (provider abstraction, routing, observability, cost control)",
+        "PM ACCELERATOR - GovernHQ (agent governance, dynamic rules, human-in-the-loop)",
+        "3D SMART FACTORY - Local multi-agent RAG (+87% retention, -30% study time)"
+      ],
+      "projects": [
+        "RAG projects with FAISS + BM25 hybrid retrieval",
+        "AvicennAi (medical LLM fine-tuning)"
+      ],
+      "skills": ["LLM routing", "RAG", "FAISS", "BM25", "Sentence Transformers", "Hugging Face"],
+      "keywords": ["LLM", "RAG", "multi-agent", "AI governance", "retrieval", "NLP"],
+      "achievement_anchors": [
+        "Architected a production-oriented LLM gateway with intelligent routing and observability",
+        "Built governance controls for autonomous agents before execution",
+        "Delivered a local RAG platform improving retention by 87%"
+      ]
+    },
+    "data_science": {
+      "experiences": [
+        "LAPROPHAN - Customer segmentation and business analytics (55M MAD opportunity)",
+        "3D SMART FACTORY - Learning analytics with measurable outcomes"
+      ],
+      "projects": [
+        "Football market value prediction",
+        "Big data analytics projects"
+      ],
+      "skills": ["Scikit-learn", "XGBoost", "Pandas", "NumPy", "Power BI", "regression", "K-Means"],
+      "keywords": ["business analytics", "segmentation", "forecasting", "insights", "dashboarding"],
+      "achievement_anchors": [
+        "Identified a 55M MAD growth opportunity through data segmentation",
+        "Turned raw sales data into decision-ready BI dashboards"
+      ]
+    },
+    "computer_vision": {
+      "experiences": [
+        "Medical imaging classification projects",
+        "Real-time object detection projects"
+      ],
+      "projects": [
+        "Meningioma detection (98% accuracy)",
+        "YOLOv8 fruit detection"
+      ],
+      "skills": ["PyTorch", "TensorFlow", "YOLOv8", "OpenCV", "transfer learning"],
+      "keywords": ["computer vision", "classification", "detection", "medical imaging"],
+      "achievement_anchors": [
+        "Achieved 98% accuracy on meningioma classification",
+        "Built and evaluated real-time YOLOv8 detection pipelines"
+      ]
+    },
+    "mlops": {
+      "experiences": [
+        "MLflow experiment tracking environments",
+        "JupyterHub private cloud deployment",
+        "Containerized AI services"
+      ],
+      "projects": [
+        "Docker Compose multi-container ML platforms",
+        "MLOps reproducibility workflows"
+      ],
+      "skills": ["Docker", "Kubernetes", "MLflow", "JupyterHub", "Linux"],
+      "keywords": ["MLOps", "reproducibility", "deployment", "monitoring", "containerization"],
+      "achievement_anchors": [
+        "Built reproducible ML pipelines with MLflow and containers",
+        "Deployed collaborative JupyterHub environments for teams"
+      ]
+    },
+    "backend_web": {
+      "experiences": [
+        "Ministry of Justice full-stack platform",
+        "Microservice-based application projects"
+      ],
+      "projects": [
+        "FastAPI microservices projects",
+        "Flask and Django web applications",
+        "Spring Boot MVC implementations"
+      ],
+      "skills": ["Flask", "Django", "FastAPI", "Spring Boot", "SQL", "REST APIs"],
+      "keywords": ["backend", "API", "web application", "microservices", "service design"],
+      "achievement_anchors": [
+        "Designed and shipped backend services with production-ready API patterns",
+        "Implemented full-stack workflows for data-driven applications"
+      ]
+    },
+    "big_data": {
+      "experiences": [
+        "Distributed analytics projects",
+        "Streaming and batch data processing use cases"
+      ],
+      "projects": [
+        "Football prediction with distributed processing",
+        "Hadoop/Spark/Kafka/Hive projects"
+      ],
+      "skills": ["Hadoop", "Spark", "Kafka", "Hive", "PySpark", "HDFS"],
+      "keywords": ["big data", "distributed", "streaming", "batch", "data engineering"],
+      "achievement_anchors": [
+        "Built scalable pipelines across Hadoop and Spark components",
+        "Used Kafka and Hive for ingestion and analytical querying"
+      ]
+    }
+  }
+}
